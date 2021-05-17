@@ -1,0 +1,7 @@
+1ValveBiped_Anim_Attachment_RH
+26.2082
+-0.00973126
+0.784287
+15.5
+10
+2

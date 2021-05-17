@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\prop\junk\campfire_01"
+	"$surfaceprop" "wood"
+               "$selfillum" "1" 
+        "$model" 1
+}

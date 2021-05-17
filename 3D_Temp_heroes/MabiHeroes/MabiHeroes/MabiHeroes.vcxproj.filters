@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="3DFramework">
+      <UniqueIdentifier>{562828c0-e159-46da-9f3f-55f2877398e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Camera">
+      <UniqueIdentifier>{e14fe590-8329-4b9c-be36-9232106a2c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers">
+      <UniqueIdentifier>{ce1b3538-0b0a-4c81-bfb0-58b44da9834e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers\TextureManager">
+      <UniqueIdentifier>{6a7f16b8-9fc4-4771-9c27-7dd11fcb5e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers\TimeManager">
+      <UniqueIdentifier>{7c2cccab-cb9a-4894-9878-8cfa58519ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers\UIManager">
+      <UniqueIdentifier>{6e29f23c-f865-43d7-98e7-5860a454dc80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers\KeyManager">
+      <UniqueIdentifier>{e71568be-c207-431c-b424-834fe63c9513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers\InputManager%28임시, 키매니저로 바뀔예정%29">
+      <UniqueIdentifier>{8d0a5287-41c4-470b-b2b2-369892e6eaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers\SceneManager">
+      <UniqueIdentifier>{6d01ab6a-6bdb-4df9-8a1b-22fd6a65a5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers\DeviceManager">
+      <UniqueIdentifier>{d4820681-70e5-4888-b658-10a6fdd071bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame">
+      <UniqueIdentifier>{2f55e703-27e3-46f3-a5f3-c7b77091a8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\MainGame">
+      <UniqueIdentifier>{c7a4c0f5-7739-4b9e-a912-ad361e91512f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\GameNode">
+      <UniqueIdentifier>{f9e302e3-f204-489b-b973-a8095a3c9d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\xLoader">
+      <UniqueIdentifier>{9b6ef811-f9a5-4b92-a682-2d05468c0142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\Grid">
+      <UniqueIdentifier>{0197e152-1053-440f-92cc-6a589c9d5929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="3DGame\Map">
+      <UniqueIdentifier>{4c6e5057-9b31-40db-baad-036c9f57b9cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\DX3D">
+      <UniqueIdentifier>{3aad77d0-ee84-401f-acec-9283ef13bae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\ObjectManger">
+      <UniqueIdentifier>{92a5580f-106f-4d5d-ab9c-e7a080445fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\Scenes">
+      <UniqueIdentifier>{819ee000-f3d7-4435-a8e6-2f4c8f3bda04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\Scenes\CollisionTestScene%28개인실험용%29">
+      <UniqueIdentifier>{89d05705-a51e-405d-a749-63ae02377e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject">
+      <UniqueIdentifier>{e4e54a6b-d691-49fb-bce7-563ab4b72d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Structure">
+      <UniqueIdentifier>{afe69d3f-bf25-4d5c-87a4-b53c4aa65543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature">
+      <UniqueIdentifier>{ef35f1cf-ddfe-476a-863a-893c8941cc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature\PC">
+      <UniqueIdentifier>{25d06259-2aa9-49ad-ad46-ca8256cf602f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature\Enemy">
+      <UniqueIdentifier>{1d8b757a-894d-4723-a3e1-391e015231e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature\Enemy\BaseClass">
+      <UniqueIdentifier>{238ee351-fe05-476a-b39a-6ebd11f9b7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature\Enemy\Boss">
+      <UniqueIdentifier>{fbb9fdd6-b62a-4a69-b6e5-2cede21fc144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature\Enemy\SkelArcher">
+      <UniqueIdentifier>{09065ddd-7393-474a-8892-43975743489a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Structure\Pillar">
+      <UniqueIdentifier>{62f52c28-6185-45c3-b901-3f95ee4c930b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\Scenes\EditScene">
+      <UniqueIdentifier>{bf73f944-2576-4847-9635-ff465a98d077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature\WearItem">
+      <UniqueIdentifier>{7f5d2490-6449-4a88-bc89-2f6d58c51423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature\Enemy\Noll">
+      <UniqueIdentifier>{2d1b4de3-6623-4e0a-9cc8-5f43c9e3d84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\Scenes\BattleRoomScene">
+      <UniqueIdentifier>{3313ef61-6931-49fb-91e2-a1eca4e4e05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\World">
+      <UniqueIdentifier>{6b116fd0-a96c-4a5e-ba40-2ef32c07de33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\CollisionRender">
+      <UniqueIdentifier>{4516dd82-abb0-4b96-b002-ddea3d3eacd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\Transform">
+      <UniqueIdentifier>{8c6892d2-0346-4a47-8164-780015940612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Structure\Box">
+      <UniqueIdentifier>{92f3930e-e766-4678-b0e9-9362957e3141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\Effect">
+      <UniqueIdentifier>{52b8c933-5041-43ca-9f3b-e26a4398d739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature\Enemy\Lavasat">
+      <UniqueIdentifier>{3aae1dc8-4c81-4ae6-b70f-fb576c1b846c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\InterFace">
+      <UniqueIdentifier>{9b45eca3-38e3-4b21-aff7-98b57b41df1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Structure\Grass">
+      <UniqueIdentifier>{acf7eb47-19f2-4c3c-b0f9-0cda8fa84cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Structure\Wall">
+      <UniqueIdentifier>{ff4e6d5d-6ad3-4723-aeec-5e5fcba6bf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Structure\Stairs">
+      <UniqueIdentifier>{6ec8d058-fee6-40f9-9d9e-b23394fb9520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\IniData">
+      <UniqueIdentifier>{8397c1f6-1ac2-4018-b22e-7947d0bd0050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Structure\Surface">
+      <UniqueIdentifier>{c142c4d6-795c-4638-a62c-4bb81e2c9f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Structure\Corridor">
+      <UniqueIdentifier>{1a9a4c87-00fa-459f-af71-cec10151d143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers\SoundManager">
+      <UniqueIdentifier>{8c401818-0551-4602-9428-842bd12b9988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers\LightManager">
+      <UniqueIdentifier>{f4118521-683b-44ed-b143-1ccce001dd6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DFramework\Managers\ShaderManager">
+      <UniqueIdentifier>{7e355d28-67f3-41f5-bff7-b75f4e8bd442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Structure\cMap">
+      <UniqueIdentifier>{d02d6d1d-6928-4927-8623-367c325ec999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature\Enemy\Prince">
+      <UniqueIdentifier>{91937463-a2ab-49dc-bb73-b8f50f40806c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DGame\GameObject\Creature\Enemy\WoodenElf">
+      <UniqueIdentifier>{d7301ae5-418c-4b8e-880b-a902046c3c0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="cDeviceManager.h">
+      <Filter>3DFramework\Managers\DeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>3DGame\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>3DFramework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cGrid.h">
+      <Filter>3DGame\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="cPyramid.h">
+      <Filter>3DGame\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="cAllocateHierarchy.h">
+      <Filter>3DGame\xLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cMtlTex.h">
+      <Filter>3DGame\xLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.h">
+      <Filter>3DFramework\Managers\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeManager.h">
+      <Filter>3DFramework\Managers\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SKS_Utility.h">
+      <Filter>헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>3DGame\ObjectManger</Filter>
+    </ClInclude>
+    <ClInclude Include="stdObjects.h">
+      <Filter>3DGame\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cTransform.h">
+      <Filter>3DGame\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputManager.h">
+      <Filter>3DFramework\Managers\InputManager%28임시, 키매니저로 바뀔예정%29</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIManager.h">
+      <Filter>3DFramework\Managers\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrain.h">
+      <Filter>3DGame\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>3DGame\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cObj_Fiona.h">
+      <Filter>3DGame\GameObject\Creature\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="MabiHeroes.h">
+      <Filter>3DFramework\DX3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyManager.h">
+      <Filter>3DFramework\Managers\KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameNode.h">
+      <Filter>3DFramework\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonsterTestScene.h">
+      <Filter>3DGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainScene.h">
+      <Filter>3DGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedMesh.h">
+      <Filter>3DFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="cCreature.h">
+      <Filter>3DGame\GameObject\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>3DFramework\Managers\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollisionTestScene.h">
+      <Filter>3DGame\Scenes\CollisionTestScene%28개인실험용%29</Filter>
+    </ClInclude>
+    <ClInclude Include="cObj_Sendbag.h">
+      <Filter>3DGame\Scenes\CollisionTestScene%28개인실험용%29</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy.h">
+      <Filter>3DGame\GameObject\Creature\Enemy\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss.h">
+      <Filter>3DGame\GameObject\Creature\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkelArcher.h">
+      <Filter>3DGame\GameObject\Creature\Enemy\SkelArcher</Filter>
+    </ClInclude>
+    <ClInclude Include="cStructure.h">
+      <Filter>3DGame\GameObject\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="stdStruct.h">
+      <Filter>헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="cPillar.h">
+      <Filter>3DGame\GameObject\Structure\Pillar</Filter>
+    </ClInclude>
+    <ClInclude Include="cEditScene.h">
+      <Filter>3DGame\Scenes\EditScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cLocalEditor.h">
+      <Filter>3DGame\Scenes\EditScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cDummyBox.h">
+      <Filter>3DGame\Scenes\EditScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cWearItem.h">
+      <Filter>3DGame\GameObject\Creature\WearItem</Filter>
+    </ClInclude>
+    <ClInclude Include="cNoll.h">
+      <Filter>3DGame\GameObject\Creature\Enemy\Noll</Filter>
+    </ClInclude>
+    <ClInclude Include="cBattleRoomScene.h">
+      <Filter>3DGame\Scenes\BattleRoomScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cWorld.h">
+      <Filter>3DGame\World</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollisionRender.h">
+      <Filter>3DFramework\CollisionRender</Filter>
+    </ClInclude>
+    <ClInclude Include="cBox.h">
+      <Filter>3DGame\GameObject\Structure\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="cEffectManager.h">
+      <Filter>3DGame\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cLavasat.h">
+      <Filter>3DGame\GameObject\Creature\Enemy\Lavasat</Filter>
+    </ClInclude>
+    <ClInclude Include="cUI.h">
+      <Filter>3DGame\InterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="cProgressBar.h">
+      <Filter>3DGame\InterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="cGrass.h">
+      <Filter>3DGame\GameObject\Structure\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="cWall.h">
+      <Filter>3DGame\GameObject\Structure\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="cStairs.h">
+      <Filter>3DGame\GameObject\Structure\Stairs</Filter>
+    </ClInclude>
+    <ClInclude Include="cIniData.h">
+      <Filter>3DFramework\IniData</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuickSlot.h">
+      <Filter>3DGame\InterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="cEffectFactoryScene.h">
+      <Filter>3DGame\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cSparkParticle.h">
+      <Filter>3DGame\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cSwing.h">
+      <Filter>3DGame\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cDust.h">
+      <Filter>3DGame\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>3DFramework\Managers\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cEquipment.h">
+      <Filter>3DGame\InterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="cLIghtManager.h">
+      <Filter>3DFramework\Managers\LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cCorridor.h">
+      <Filter>헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="cStep.h">
+      <Filter>헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="cSurface.h">
+      <Filter>헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>3DFramework\Managers\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiAnimation.hpp">
+      <Filter>3DFramework\Managers\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap.h">
+      <Filter>3DGame\GameObject\Structure\cMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cMisile.h">
+      <Filter>헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="cPrince.h">
+      <Filter>3DGame\GameObject\Creature\Enemy\Prince</Filter>
+    </ClInclude>
+    <ClInclude Include="cWoodenElf.h">
+      <Filter>3DGame\GameObject\Creature\Enemy\WoodenElf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cDeviceManager.cpp">
+      <Filter>3DFramework\Managers\DeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>3DGame\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>3DFramework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cGrid.cpp">
+      <Filter>3DGame\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="cPyramid.cpp">
+      <Filter>3DGame\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="cAllocateHierarchy.cpp">
+      <Filter>3DGame\xLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cMtlTex.cpp">
+      <Filter>3DGame\xLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>3DFramework\Managers\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeManager.cpp">
+      <Filter>3DFramework\Managers\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SKS_Utility.cpp">
+      <Filter>소스</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>3DGame\ObjectManger</Filter>
+    </ClCompile>
+    <ClCompile Include="cTransform.cpp">
+      <Filter>3DGame\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputManager.cpp">
+      <Filter>3DFramework\Managers\InputManager%28임시, 키매니저로 바뀔예정%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIManager.cpp">
+      <Filter>3DFramework\Managers\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrain.cpp">
+      <Filter>3DGame\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>3DGame\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cObj_Fiona.cpp">
+      <Filter>3DGame\GameObject\Creature\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="MabiHeroes.cpp">
+      <Filter>3DFramework\DX3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyManager.cpp">
+      <Filter>3DFramework\Managers\KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameNode.cpp">
+      <Filter>3DFramework\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonsterTestScene.cpp">
+      <Filter>3DGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainScene.cpp">
+      <Filter>3DGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedMesh.cpp">
+      <Filter>3DFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="cCreature.cpp">
+      <Filter>3DGame\GameObject\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>3DFramework\Managers\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollisionTestScene.cpp">
+      <Filter>3DGame\Scenes\CollisionTestScene%28개인실험용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cObj_Sendbag.cpp">
+      <Filter>3DGame\Scenes\CollisionTestScene%28개인실험용%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy.cpp">
+      <Filter>3DGame\GameObject\Creature\Enemy\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss.cpp">
+      <Filter>3DGame\GameObject\Creature\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkelArcher.cpp">
+      <Filter>3DGame\GameObject\Creature\Enemy\SkelArcher</Filter>
+    </ClCompile>
+    <ClCompile Include="cStructure.cpp">
+      <Filter>3DGame\GameObject\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="cPillar.cpp">
+      <Filter>3DGame\GameObject\Structure\Pillar</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스</Filter>
+    </ClCompile>
+    <ClCompile Include="cEditScene.cpp">
+      <Filter>3DGame\Scenes\EditScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cLocalEditor.cpp">
+      <Filter>3DGame\Scenes\EditScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cDummyBox.cpp">
+      <Filter>3DGame\Scenes\EditScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cWearItem.cpp">
+      <Filter>3DGame\GameObject\Creature\WearItem</Filter>
+    </ClCompile>
+    <ClCompile Include="cNoll.cpp">
+      <Filter>3DGame\GameObject\Creature\Enemy\Noll</Filter>
+    </ClCompile>
+    <ClCompile Include="cBattleRoomScene.cpp">
+      <Filter>3DGame\Scenes\BattleRoomScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cWorld.cpp">
+      <Filter>3DGame\World</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollisionRender.cpp">
+      <Filter>3DFramework\CollisionRender</Filter>
+    </ClCompile>
+    <ClCompile Include="cBox.cpp">
+      <Filter>3DGame\GameObject\Structure\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="cEffectManager.cpp">
+      <Filter>3DGame\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cLavasat.cpp">
+      <Filter>3DGame\GameObject\Creature\Enemy\Lavasat</Filter>
+    </ClCompile>
+    <ClCompile Include="cUI.cpp">
+      <Filter>3DGame\InterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="cProgressBar.cpp">
+      <Filter>3DGame\InterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="cGrass.cpp">
+      <Filter>3DGame\GameObject\Structure\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="cWall.cpp">
+      <Filter>3DGame\GameObject\Structure\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="cStairs.cpp">
+      <Filter>3DGame\GameObject\Structure\Stairs</Filter>
+    </ClCompile>
+    <ClCompile Include="cIniData.cpp">
+      <Filter>3DFramework\IniData</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuickSlot.cpp">
+      <Filter>3DGame\InterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="cEffectFactoryScene.cpp">
+      <Filter>3DGame\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cSparkParticle.cpp">
+      <Filter>3DGame\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cSwing.cpp">
+      <Filter>3DGame\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cDust.cpp">
+      <Filter>3DGame\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>3DFramework\Managers\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cEquipment.cpp">
+      <Filter>3DGame\InterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="cLIghtManager.cpp">
+      <Filter>3DFramework\Managers\LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cCorridor.cpp">
+      <Filter>소스</Filter>
+    </ClCompile>
+    <ClCompile Include="cStep.cpp">
+      <Filter>소스</Filter>
+    </ClCompile>
+    <ClCompile Include="cSurface.cpp">
+      <Filter>소스</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>3DFramework\Managers\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap.cpp">
+      <Filter>3DGame\GameObject\Structure\cMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cMisile.cpp">
+      <Filter>소스</Filter>
+    </ClCompile>
+    <ClCompile Include="cPrince.cpp">
+      <Filter>3DGame\GameObject\Creature\Enemy\Prince</Filter>
+    </ClCompile>
+    <ClCompile Include="cWoodenElf.cpp">
+      <Filter>3DGame\GameObject\Creature\Enemy\WoodenElf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MabiHeroes.rc">
+      <Filter>리소스</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="MabiHeroes.ico">
+      <Filter>리소스</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

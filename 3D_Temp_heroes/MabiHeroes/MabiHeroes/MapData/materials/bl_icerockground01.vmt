@@ -1,0 +1,27 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "worlds\ground01\iceground01"
+
+	"$basetexture2" "worlds\ground01\darkrockground01"
+
+	"$bumpmap" "worlds\ground01\iceground01_n"
+
+	"$bumpmap2" "worlds\ground01\darkrockground01_n"
+
+	"%tooltexture" "worlds\blend01\bl_icerockground01"
+
+	"$normalmapalphaenvmapmask" "1"
+
+	"$envmap" "worlds/misc01/envmap_stage06"
+
+	"$surfaceprop" "snow"
+
+	"$envmapcontrast" "1.0"
+
+	"$envmapsaturation" "0.1"
+	
+	"$envmaptint" "{168 182 192}"
+	
+	"$reflectivity"  "{168 182 192}"
+	
+}

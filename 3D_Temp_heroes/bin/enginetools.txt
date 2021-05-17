@@ -1,0 +1,5 @@
+"enginetools"
+{
+	"library"	"tools/monedit.dll"
+	"library"	"tools/vmt.dll"
+}

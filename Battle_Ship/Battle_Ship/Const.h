@@ -1,0 +1,36 @@
+#ifndef __CONST_H__
+#define __CONST_H__
+
+enum DIRECTION
+{
+	UP , DOWN, LEFT, RIGHT
+};
+enum TEAM
+{
+	RED , BLUE
+};
+enum LAYOUT
+{
+	EMPTY, BLOCK, SMALL_SHIP, BIG_SHIP, BOMB, CROSS_BOMB, NINE_BOMB
+};
+enum MAPMENU
+{
+	MOVE, ATTACK, END_OF_TURN, SAVE, EXIT
+};
+enum PRIORITY_LIMIT
+{
+	LOW = 5, USUALLY = 10, HIGH = 16
+};
+enum PRIORITY_ATTACK_POINT
+{
+	BASE = 5, NESTING = 3, HIGH_NESTING = 2, MULTY_NESTING = 1
+};
+enum PRIORITY_MOVE_POINT
+{
+	AROUND = 5, VICINITY = 2, VACANT = 0, FAL = 1, BETWEEN = 3
+};
+
+const int MAX_X = 20;
+const int MAX_Y = 15;
+
+#endif

@@ -1,0 +1,55 @@
+"UnlitGeneric"
+{
+"$basetexture" "decals/ghostwall01"
+"$surfaceprop" "ghostwall"
+"$nodecal" "1"
+"$additive" 1
+"$temp" 0
+"$one" 1
+"$tempvec" "[0 0]"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" "$temp"
+			"sineperiod" 3600.00
+			"sinemin" 360
+			"sinemax" 0
+		}
+		"Sine"
+		{
+			"resultVar" "$tempvec[0]"
+			"sineperiod" 10.00
+			"sinemin" 0.1
+			"sinemax" 0.2
+			"timeoffset" 7
+		}
+		"Sine"
+		{
+			"resultVar" "$tempvec[1]"
+			"sineperiod" 7.00
+			"sinemin" 0.1
+			"sinemax" 0.15
+			"timeoffset" 2
+		}
+		"TextureTransform"
+		{
+			"rotateVar" "$temp"
+			"translateVar" "$tempvec"
+			"resultVar" "$basetexturetransform"
+		}
+		"PlayerSpeed"
+		{
+			"resultVar" "$temp"
+			"scale" 0.01
+		}
+               "Sine"
+		{
+			"resultVar"	"$alpha"
+			"sineperiod"	3
+			"sinemin"	0.6
+			"sinemax" 0.9
+		}
+	}
+}
+

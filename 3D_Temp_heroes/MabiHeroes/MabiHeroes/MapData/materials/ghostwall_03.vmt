@@ -1,0 +1,45 @@
+"cloud"
+{
+"$basetexture" "Decals/ghostwall01"
+"$surfaceprop" "ghostwall"
+"$nodecal" "1"
+"$cloudalphatexture" "Decals/ghostwall_A01"
+"$cloudscale" "[ 1.3 1.3 1.3 ]"
+"$maskscale" "[ 1.00 1.00 1.00 ]"
+"$temp" 0
+"$one" 1
+"$tempvec" "[0 0]"
+
+"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" "$temp"
+			"sineperiod" 5
+			"sinemin" 0
+			"sinemax" 15.0
+		}
+		"Sine"
+		{
+			"resultVar" "$tempvec[0]"
+			"sineperiod" 20.00
+			"sinemin" 0.1
+			"sinemax" 0.6
+			"timeoffset" 15
+		}
+		"Sine"
+		{
+			"resultVar" "$tempvec[1]"
+			"sineperiod" 20.00
+			"sinemin" 0.1
+			"sinemax" 0.5
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 0.4
+			"texturescrollangle" 90
+		}
+	}
+}
+
